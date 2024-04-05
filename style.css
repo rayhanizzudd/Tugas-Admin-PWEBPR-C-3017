@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #f3f7ea;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaf5d1;
+  width: 100vw;
+  height: 50px;
+}
+
+.navbar a {
+  padding: 0px 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+#login {
+  font-size: 24px;
+}
+
+#cart {
+  font-size: 24px;
+}
+
+#search {
+  font-size: 24px;
+}
+
+.form {
+  position: relative;
+  left: 180px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+
+.navbar .logo {
+  position: relative;
+  left: 30px;
+}
+
+.navbar .menu1 {
+  position: relative;
+  left: 30px;
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu2 a {
+  position: relative;
+  right: 30px;
+  padding: 0px 5px;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.navbar .menu1 a:hover {
+  background-color: #8ac187;
+  border-radius: 25px;
+}
+
+.navbar .menu2 a:hover {
+  background-color: #8ac187;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container .header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+  gap: 25px;
+}
+
+.container .header h1 {
+  /* margin-left: 50px; */
+  font-size: 58px;
+}
+.container .header h3 {
+  margin-left: 50px;
+  padding-right: 250px;
+  font-size: 32px;
+}
+
+.container .header p {
+  margin-left: 50px;
+  padding-right: 330px;
+  font-size: 16px;
+}
+
+span {
+  color: #8ac187;
+}
+
+.btn button {
+  background-color: #8ac187;
+  width: 155px;
+  height: 32px;
+  border-radius: 30px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+/* login page  */
