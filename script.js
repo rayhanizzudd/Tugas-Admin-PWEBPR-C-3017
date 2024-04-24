@@ -39,7 +39,7 @@ function Login() {
     document.getElementById("result").innerHTML = "Password Must Be 6 Digits*";
     return false;
   } else {
-    document.Formfill.action = "admin.php"; 
+    document.Formfill.action = "../admin/admin.php"; 
     return true;
   }
 }

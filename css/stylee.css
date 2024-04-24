@@ -7,7 +7,7 @@
 }
 
 .reg {
-  background: url(asset/bg.jpeg) no-repeat;
+  background: url(../asset/bg.jpeg) no-repeat;
   /* background-color: aqua; */
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
 }
 
 .log {
-  background: url(asset/bg3.jpg) no-repeat;
+  background: url(../asset/bg3.jpg) no-repeat;
   /* background-color: aqua; */
   background-position: center;
   background-size: cover;

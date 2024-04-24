@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Ornamental Plant</title>
 </head>
@@ -23,7 +23,7 @@
             <a id="search" href="#" class="bx bx-search">
             </a>
             <a id="cart" href="#" class="bx bx-cart"></a>
-            <a id="login"href="login.php" class="bx bx-log-in"></a>
+            <a id="login" href="pages/login.php" class="bx bx-log-in"></a>
         </nav>
     </div>
     <!-- INI CONTENT  -->

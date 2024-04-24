@@ -119,27 +119,27 @@ a {
 
 #btnback {
   position: relative;
-  right: 600px;
+  right: 700px;
   color: black;
   font-size: 30px;
 }
 
 #search {
   position: relative;
-  left: 450px;
+  left: 550px;
   font-size: 30px;
   color: black;
 }
 
 form {
   position: relative;
-  left: 250px;
+  left: 350px;
   /* border-radius: 10px; */
 }
 
 #notif {
   position: relative;
-  left: 300px;
+  left: 400px;
   font-size: 30px;
   color: black;
 }
@@ -193,10 +193,15 @@ table {
   text-align: center;
 }
 
-.table-body {
+.my-table  {
   align-items: center;
   background-color: #d8ffd2;
-  border-collapse: collapse;
+  border-collapse: collapse; 
+  transition: ease-in-out 3s;
+}
+
+.my-table .table-body tr:hover{
+  background-color: #b5f2b0;
 }
 
 td button {
@@ -225,6 +230,10 @@ td button:hover {
 }
 
 td {
+  padding: 10px;
+}
+
+th {
   padding: 10px;
 }
 
